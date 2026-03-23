@@ -1,6 +1,6 @@
 # Matrix-free Second-order Optimization of Gaussian Splats with Residual Sampling 
 [Hamza Pehlivan](https://people.mpi-inf.mpg.de/~hpehliva/), [Andrea Boscolo Camiletto](https://abcamiletto.com/), [Lin Geng Foo](https://lingeng.foo/), [Marc Habermann](https://people.mpi-inf.mpg.de/~mhaberma/), [Christian Theobalt](https://people.mpi-inf.mpg.de/~theobalt/) <br>
-| [Webpage](https://vcai.mpi-inf.mpg.de/projects/LM-IS/) | [Full Paper](https://arxiv.org/abs/2504.12905) |<br>
+| [Webpage](https://vcai.mpi-inf.mpg.de/projects/LM-RS/) | [Full Paper](https://arxiv.org/abs/2504.12905) |<br>
 ![Teaser image](assets/Teaser.png)
 
 We provide the official implementation for our paper "Matrix-free Second-order Optimization of Gaussian Splats with Residual Sampling".
