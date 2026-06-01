@@ -12,8 +12,10 @@ CG_VALS="3,8"
 
 LOSS_FN="mse" # "mse" or "mse_approx_ssim"
 SSIM_WEIGHT=0.0
+ITERATIONS=200
 if [ "$LOSS_FN" = "mse_approx_ssim" ]; then
     SSIM_WEIGHT=0.2
+    ITERATIONS=300
 fi
 
 
@@ -24,7 +26,7 @@ for scene in "${synthetic_scenes[@]}"; do
     python train.py \
             --auto_lr --max_lr 0.2 \
             --regularizer=0.1 --source_path $SOURCE_PATH --model_path $MODEL_PATH \
-            --eval --iterations=10 --sh_degree=0 --log_freq=10 --log_image_freq=100 \
+            --eval --iterations $ITERATIONS --sh_degree=0 --log_freq=10 --log_image_freq=100 \
             --sampling_distribution uniform --camera_sampler clusterdir \
             --cgiter_values $CG_VALS --cgiter_breakpoints $CG_BREAKS \
             --batchsize_values $BATCHSIZE_VALUES --batchsize_breakpoints $BATCH_BREAKS \
