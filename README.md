@@ -12,12 +12,12 @@ We provide the official implementation for our paper "Matrix-free Second-order O
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     If you find our work useful, please cite it with the following bibtex entry: 
-    <pre><code>@article{pehlivan2025second,
-        title={Matrix-free Second-order Optimization of Gaussian Splats with Residual Sampling},
-        author={Pehlivan, Hamza and Boscolo Camiletto, Andrea and Foo, Lin Geng and Habermann, Marc and Theobalt, Christian},
-        journal={arXiv preprint arXiv:2504.12905},
-        year={2025}
-}</code></pre>
+    <pre><code>@inproceedings{pehlivanmatrix,
+  title={Matrix-free Second-order Optimization of Gaussian Splats with Residual Sampling},
+  author={Pehlivan, Hamza and Camiletto, Andrea Boscolo and Foo, Lin Geng and Habermann, Marc and Theobalt, Christian},
+  booktitle={Thirteenth International Conference on 3D Vision}
+}
+</code></pre>
   </div>
 </section>
 
